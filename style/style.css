@@ -73,7 +73,6 @@ nav a {
   font-size: 1.3rem;
 }
 
-
 nav a:hover {
   border-bottom: solid var(--user-color) 3px;
   color: var(--user-color);
@@ -92,7 +91,7 @@ nav a:active {
   border-radius: 10px;
   text-transform: capitalize;
   font-size: 12px;
-  margin: 0 4px 0;
+  margin: 0 4px;
   width: 70px;
   text-align: center;
 }
