@@ -39,7 +39,7 @@ header {
   font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: 1px;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .hearder-container nav {
@@ -54,6 +54,15 @@ header {
   opacity: 0;
 }
 
+nav a {
+  text-transform: capitalize;
+  color: var(--black-color);
+  margin: 10px;
+  font-weight: 600;
+  border-bottom: solid transparent 3px;
+  transition: 0.3s ease;
+}
+
 .hearder-container nav a {
   display: block;
   text-align: center;
@@ -64,18 +73,10 @@ header {
   font-size: 1.3rem;
 }
 
-nav a {
-  text-transform: capitalize;
-  color: var(--black-color);
-  margin: 10px;
-  font-weight: 600;
-  border-bottom: solid transparent 3px;
-  transition: 0.3s ease;
-}
 
 nav a:hover {
   border-bottom: solid var(--user-color) 3px;
-  color:var(--user-color);
+  color: var(--user-color);
 }
 
 nav a:active {
@@ -91,7 +92,7 @@ nav a:active {
   border-radius: 10px;
   text-transform: capitalize;
   font-size: 12px;
-  margin: 0 4px 0px;
+  margin: 0 4px 0;
   width: 70px;
   text-align: center;
 }
@@ -118,7 +119,7 @@ label {
   width: 95%;
   margin: 15px auto 30px;
   border-radius: 15px;
-  background-image: linear-gradient(to right, #00000033, #000000), url("");
+  background-image: linear-gradient(to right, #0003, #000), url("");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -131,8 +132,8 @@ label {
 }
 
 .material-icons {
-  font-size: 30px
-} 
+  font-size: 30px;
+}
 
 .banner-text {
   text-align: start;
@@ -171,7 +172,6 @@ label {
 .banner-link {
   width: 130px;
   display: flex;
-  align-items: center;
   align-items: center;
   justify-content: center;
   gap: 10px;
