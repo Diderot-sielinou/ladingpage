@@ -581,7 +581,7 @@ footer {
   text-align: center;
 }
 
-.footer-nav a {
+.foot-linknav {
   padding: 5px 1px;
   display: block;
   color: var(--black-color);
