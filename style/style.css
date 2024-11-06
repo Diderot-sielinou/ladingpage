@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -15,6 +17,7 @@
   --user-color: #54e054;
   --color1: #ccbafe;
   --colr2: #a5e4f9;
+  --back-color: #f4f5f6;
 }
 
 header {
@@ -118,7 +121,7 @@ label {
   width: 95%;
   margin: 15px auto 30px;
   border-radius: 15px;
-  background-image: linear-gradient(to right, #0003, #000), url("");
+  background-image: linear-gradient(to right, #0003, #000);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -187,4 +190,400 @@ img {
   object-fit: cover;
   border-radius: 10px;
   object-position: right;
+}
+
+/* -------------------destination ------------------- */
+
+.destination {
+  width: 100%;
+  height: auto;
+  margin: 15px 0 0;
+}
+
+.destination-text {
+  font-family: Roboto, sans-serif;
+  padding: 5%;
+  width: 100%;
+}
+
+.destination-text h2 {
+  text-align: center;
+  font-family: "Mona Sans", sans-serif;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.destination-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  flex-flow: column;
+  text-align: center;
+}
+
+.p-arrow span {
+  font-size: 16px;
+}
+
+.destination-block {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.destination-image {
+  position: relative;
+}
+
+.destination-image span {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 0.9rem;
+  background-color: var(--white-color);
+  color: var(--black-color);
+  border: none;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 7px;
+}
+
+.destination-block-text {
+  text-align: start;
+  margin-top: 15px;
+}
+
+.destination-h3 {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.destination-block-p {
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: var(--black-color);
+  line-height: 1.4;
+}
+
+.destination-text-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.destination-ens-text {
+  font-size: 0.8rem;
+  color: var(--black-color);
+  background-color: var(--user-color);
+  padding: 10px;
+  border-radius: 14px;
+}
+
+/* --------------------------find section ------------------------- */
+
+.find {
+  width: 100%;
+  height: auto;
+  background-color: var(--back-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.find-image {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+}
+
+.find-text {
+  padding: 5%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+}
+
+.find-block-texticon {
+  padding: 14px;
+  background-color: var(--white-color);
+  border-radius: 15px;
+}
+
+.find-block-texticon p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+}
+
+.find-block-texticon p span {
+  font-size: 12px;
+}
+
+.find-block-texticon-black {
+  padding: 10px;
+  background-color: var(--black-color);
+  border-radius: 15px;
+  color: var(--white-color);
+}
+
+.find-block-p1 {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.find-block-p2 {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+/* ---------------- testimonial ----------------------  */
+
+.testimonials {
+  width: 100%;
+  height: auto;
+  background-color: var(--white-color);
+  padding: 10% 5%;
+}
+
+.testimonial-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 10%;
+}
+
+.testimonial-q {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.4;
+  font-size: 0.8rem;
+}
+
+.ptestimo {
+  font-family: "Mona Sans", sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+}
+
+.testimonial-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.testimonial-block-item {
+  padding: 10px;
+  color: var(--black-color);
+  border-radius: 10px;
+}
+
+.item-p {
+  font-size: 0.9rem;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.4;
+  text-align: start;
+  margin-bottom: 40px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.image-testimonial {
+  width: 32px;
+  height: 31px;
+  border-radius: 100%;
+}
+
+.name,
+.function {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.6rem;
+}
+
+.item1 {
+  background-color: var(--user-color);
+}
+
+.item2 {
+  background-color: var(--color1);
+}
+
+.item3 {
+  background-color: var(--colr2);
+}
+
+/* ----------------------- favorie plan ------------------- */
+
+.favori-plan {
+  width: 95%;
+  background-color: var(--black-color);
+  padding: 5%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.plan-h2 {
+  color: var(--white-color);
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.tab {
+  overflow-x: auto;
+}
+
+.tabb {
+  border-collapse: collapse;
+  color: var(--white-color);
+  width: 100%;
+}
+
+th {
+  text-align: start;
+}
+
+tr {
+  border-bottom: 0.2px solid #e9e2e24d;
+}
+
+td {
+  font-size: 0.8rem;
+}
+
+th,
+td {
+  padding: 10px 20px;
+}
+
+.p-large {
+  margin-right: 10px;
+  font-size: 0.7rem;
+}
+
+.th1 {
+  background-color: var(--user-color);
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.th2 {
+  background-color: var(--color1);
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.th3 {
+  background-color: #edd087;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.favorit-end {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3%;
+  color: var(--white-color);
+}
+
+.favori-icon {
+  width: 100%;
+}
+
+.favori-icon h2 {
+  font-family: "Mona Sans", sans-serif;
+  font-size: 1.4rem;
+  margin: 5px 0;
+  letter-spacing: 1px;
+}
+
+.f-end-p {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.f-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.f-icon {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff80;
+  padding: 2px;
+}
+
+.f-img {
+  width: 30px;
+  height: 30px;
+}
+
+.f-p1 {
+  font-size: 0.6rem;
+}
+
+.f-p2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9rem;
+}
+
+/* ----------------footer ------------------------- */
+
+footer {
+  width: 100%;
+  padding: 5%;
+}
+
+.foot-container {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-link {
+  display: inline-block;
+  color: var(--black-color);
+  padding: 10px 1px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-size: 12px;
+  margin: 0 4px;
+  width: 70px;
+  text-align: center;
+}
+
+.end-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
 }
