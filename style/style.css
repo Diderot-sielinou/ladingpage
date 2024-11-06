@@ -261,7 +261,7 @@ img {
 }
 
 .destination-h3 {
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .destination-block-p {
@@ -410,7 +410,8 @@ img {
   border-radius: 100%;
 }
 
-.name , .function {
+.name,
+.function {
   font-family: "Noto Sans", sans-serif;
   font-size: 0.6rem;
 }
@@ -462,10 +463,10 @@ tr {
 }
 
 td {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
-th, 
+th,
 td {
   padding: 10px 20px;
 }
@@ -515,7 +516,7 @@ td {
 }
 
 .f-end-p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.4;
   font-family: "Noto Sans", sans-serif;
   margin-bottom: 20px;
