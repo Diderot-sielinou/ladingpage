@@ -566,7 +566,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 10px;
+  gap: 40px;
 }
 
 .btn-link {
@@ -579,6 +579,12 @@ footer {
   margin: 0 4px;
   width: 70px;
   text-align: center;
+}
+
+.footer-nav a {
+  padding: 5px 1px;
+  display: block;
+  color: var(--black-color);
 }
 
 .end-foot {
