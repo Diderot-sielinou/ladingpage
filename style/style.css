@@ -121,7 +121,7 @@ label {
   width: 95%;
   margin: 15px auto 30px;
   border-radius: 15px;
-  background-image: linear-gradient(to right, #0003, #000);
+  background-image: linear-gradient(to right, #000000f2, #000c);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -649,7 +649,6 @@ footer {
 
   main {
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
@@ -737,6 +736,10 @@ footer {
     font-size: 0.9rem;
   }
 
+  .img {
+    height: 800px;
+  }
+
   /* ----------------destination */
 
   .destination-text h2 {
@@ -760,6 +763,7 @@ footer {
 
   img {
     height: 100%;
+    object-position: top;
   }
 
   .destination-image {
@@ -782,6 +786,19 @@ footer {
     align-items: center;
   }
 
+  .find-text {
+    gap: 50px;
+  }
+
+  .find-block-texticon {
+    padding: 25px;
+    font-size: 18px;
+  }
+
+  .find-block-texticon p {
+    font-size: 18px;
+  }
+
   /* ---------------------------testimonial -------------- */
 
   .testimonial-text {
@@ -799,9 +816,12 @@ footer {
   }
 
   footer {
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
+  }
+
+  .btn-link {
+    font-size: 16px;
   }
 
   .footer-nav {
@@ -812,6 +832,10 @@ footer {
   }
 
   .foot-linknav {
-    font-size: 12px;
+    font-size: 16px;
+  }
+
+  .end-foot p {
+    font-size: 0.8rem;
   }
 }
