@@ -121,7 +121,7 @@ label {
   width: 95%;
   margin: 15px auto 30px;
   border-radius: 15px;
-  background-image: linear-gradient(to right, #000000f2, #000000cc);
+  background-image: linear-gradient(to right, #000000f2, #000c);
   background-size: cover;
   background-position: center;
   display: flex;
